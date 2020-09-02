@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A29D67AF077A5841EA3ED6FB /* Pods_ChaiCronicals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44356B8641C7FC1BEDCF851 /* Pods_ChaiCronicals.framework */; };
+		A78BBD218AC9956290F243F5 /* Pods_ChaiCronicalsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9480D5657792D00D8DD1FE89 /* Pods_ChaiCronicalsTests.framework */; };
+		C2FC71655ECDE9DD954F3628 /* Pods_ChaiCronicals_ChaiCronicalsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D571E70C20A30F2A56161862 /* Pods_ChaiCronicals_ChaiCronicalsUITests.framework */; };
+		D985B64D24DA903C001C40CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D985B64C24DA903C001C40CD /* AppDelegate.swift */; };
+		D985B64F24DA903C001C40CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D985B64E24DA903C001C40CD /* SceneDelegate.swift */; };
+		D985B65124DA903C001C40CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D985B65024DA903C001C40CD /* ViewController.swift */; };
+		D985B65424DA903C001C40CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D985B65224DA903C001C40CD /* Main.storyboard */; };
+		D985B65624DA903E001C40CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D985B65524DA903E001C40CD /* Assets.xcassets */; };
+		D985B65924DA903E001C40CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D985B65724DA903E001C40CD /* LaunchScreen.storyboard */; };
+		D985B66424DA903E001C40CD /* ChaiCronicalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D985B66324DA903E001C40CD /* ChaiCronicalsTests.swift */; };
+		D985B66F24DA903E001C40CD /* ChaiCronicalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D985B66E24DA903E001C40CD /* ChaiCronicalsUITests.swift */; };
+		D985B67D24DA90F4001C40CD /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D985B67C24DA90F4001C40CD /* SignupViewController.swift */; };
+		D985B67F24DA910E001C40CD /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D985B67E24DA910E001C40CD /* LogInViewController.swift */; };
+		D985B68124DA9134001C40CD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D985B68024DA9134001C40CD /* HomeViewController.swift */; };
+		D985B68424DA9EB2001C40CD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D985B68324DA9EB1001C40CD /* Utilities.swift */; };
+		D9E46D4924DAACB90018B176 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E46D4824DAACB90018B176 /* GoogleService-Info.plist */; };
+		D9E46D4D24DB50CC0018B176 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E46D4C24DB50CC0018B176 /* Constants.swift */; };
+		D9E46D5424DCC7F30018B176 /* ChaiVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D9E46D5324DCC7F30018B176 /* ChaiVideo.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D985B66024DA903E001C40CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D985B64124DA903B001C40CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D985B64824DA903C001C40CD;
+			remoteInfo = ChaiCronicals;
+		};
+		D985B66B24DA903E001C40CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D985B64124DA903B001C40CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D985B64824DA903C001C40CD;
+			remoteInfo = ChaiCronicals;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D907D44924E315EE005912E8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18805E443F52A779370BE98D /* Pods-ChaiCronicals-ChaiCronicalsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaiCronicals-ChaiCronicalsUITests.release.xcconfig"; path = "Target Support Files/Pods-ChaiCronicals-ChaiCronicalsUITests/Pods-ChaiCronicals-ChaiCronicalsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		36630851AE38EED7F27DD86E /* Pods-ChaiCronicalsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaiCronicalsTests.release.xcconfig"; path = "Target Support Files/Pods-ChaiCronicalsTests/Pods-ChaiCronicalsTests.release.xcconfig"; sourceTree = "<group>"; };
+		763266E4D3357FC1245981E1 /* Pods-ChaiCronicals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaiCronicals.release.xcconfig"; path = "Target Support Files/Pods-ChaiCronicals/Pods-ChaiCronicals.release.xcconfig"; sourceTree = "<group>"; };
+		9480D5657792D00D8DD1FE89 /* Pods_ChaiCronicalsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChaiCronicalsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44356B8641C7FC1BEDCF851 /* Pods_ChaiCronicals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChaiCronicals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D571E70C20A30F2A56161862 /* Pods_ChaiCronicals_ChaiCronicalsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChaiCronicals_ChaiCronicalsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D907D44324E315ED005912E8 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		D907D44524E315EE005912E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D985B64924DA903C001C40CD /* ChaiCronicals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaiCronicals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D985B64C24DA903C001C40CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D985B64E24DA903C001C40CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D985B65024DA903C001C40CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D985B65324DA903C001C40CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D985B65524DA903E001C40CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D985B65824DA903E001C40CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D985B65A24DA903E001C40CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D985B65F24DA903E001C40CD /* ChaiCronicalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaiCronicalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D985B66324DA903E001C40CD /* ChaiCronicalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaiCronicalsTests.swift; sourceTree = "<group>"; };
+		D985B66524DA903E001C40CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D985B66A24DA903E001C40CD /* ChaiCronicalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaiCronicalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D985B66E24DA903E001C40CD /* ChaiCronicalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaiCronicalsUITests.swift; sourceTree = "<group>"; };
+		D985B67024DA903E001C40CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D985B67C24DA90F4001C40CD /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		D985B67E24DA910E001C40CD /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		D985B68024DA9134001C40CD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D985B68324DA9EB1001C40CD /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		D9B979D785BE2C3867D4DD10 /* Pods-ChaiCronicals-ChaiCronicalsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaiCronicals-ChaiCronicalsUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChaiCronicals-ChaiCronicalsUITests/Pods-ChaiCronicals-ChaiCronicalsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9E46D4824DAACB90018B176 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D9E46D4C24DB50CC0018B176 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../../../../CustomLoginDemo/CustomLoginDemo/Helpers/Constants.swift; sourceTree = "<group>"; };
+		D9E46D5324DCC7F30018B176 /* ChaiVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChaiVideo.mp4; sourceTree = "<group>"; };
+		DAA7BB92F38556830C68ACAF /* Pods-ChaiCronicalsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaiCronicalsTests.debug.xcconfig"; path = "Target Support Files/Pods-ChaiCronicalsTests/Pods-ChaiCronicalsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8483ECC9D08F87FD3AE1CE4 /* Pods-ChaiCronicals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaiCronicals.debug.xcconfig"; path = "Target Support Files/Pods-ChaiCronicals/Pods-ChaiCronicals.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D985B64624DA903C001C40CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29D67AF077A5841EA3ED6FB /* Pods_ChaiCronicals.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D985B65C24DA903E001C40CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78BBD218AC9956290F243F5 /* Pods_ChaiCronicalsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D985B66724DA903E001C40CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FC71655ECDE9DD954F3628 /* Pods_ChaiCronicals_ChaiCronicalsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9832787FE8126EFCD6D0A370 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8483ECC9D08F87FD3AE1CE4 /* Pods-ChaiCronicals.debug.xcconfig */,
+				763266E4D3357FC1245981E1 /* Pods-ChaiCronicals.release.xcconfig */,
+				D9B979D785BE2C3867D4DD10 /* Pods-ChaiCronicals-ChaiCronicalsUITests.debug.xcconfig */,
+				18805E443F52A779370BE98D /* Pods-ChaiCronicals-ChaiCronicalsUITests.release.xcconfig */,
+				DAA7BB92F38556830C68ACAF /* Pods-ChaiCronicalsTests.debug.xcconfig */,
+				36630851AE38EED7F27DD86E /* Pods-ChaiCronicalsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D907D44224E315ED005912E8 /* APN_ChaiCronicals */ = {
+			isa = PBXGroup;
+			children = (
+				D907D44324E315ED005912E8 /* NotificationService.swift */,
+				D907D44524E315EE005912E8 /* Info.plist */,
+			);
+			path = APN_ChaiCronicals;
+			sourceTree = "<group>";
+		};
+		D985B64024DA903B001C40CD = {
+			isa = PBXGroup;
+			children = (
+				D985B64B24DA903C001C40CD /* ChaiCronicals */,
+				D985B66224DA903E001C40CD /* ChaiCronicalsTests */,
+				D985B66D24DA903E001C40CD /* ChaiCronicalsUITests */,
+				D907D44224E315ED005912E8 /* APN_ChaiCronicals */,
+				D985B64A24DA903C001C40CD /* Products */,
+				9832787FE8126EFCD6D0A370 /* Pods */,
+				DB8FBED77832E1E14619B1EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D985B64A24DA903C001C40CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D985B64924DA903C001C40CD /* ChaiCronicals.app */,
+				D985B65F24DA903E001C40CD /* ChaiCronicalsTests.xctest */,
+				D985B66A24DA903E001C40CD /* ChaiCronicalsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D985B64B24DA903C001C40CD /* ChaiCronicals */ = {
+			isa = PBXGroup;
+			children = (
+				D985B64C24DA903C001C40CD /* AppDelegate.swift */,
+				D985B64E24DA903C001C40CD /* SceneDelegate.swift */,
+				D9E46D4E24DCB3B50018B176 /* Media */,
+				D985B68524DA9ED9001C40CD /* Helpers */,
+				D985B68224DA914D001C40CD /* View_controller */,
+				D985B65224DA903C001C40CD /* Main.storyboard */,
+				D985B65524DA903E001C40CD /* Assets.xcassets */,
+				D985B65724DA903E001C40CD /* LaunchScreen.storyboard */,
+				D985B65A24DA903E001C40CD /* Info.plist */,
+				D9E46D4824DAACB90018B176 /* GoogleService-Info.plist */,
+			);
+			path = ChaiCronicals;
+			sourceTree = "<group>";
+		};
+		D985B66224DA903E001C40CD /* ChaiCronicalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D985B66324DA903E001C40CD /* ChaiCronicalsTests.swift */,
+				D985B66524DA903E001C40CD /* Info.plist */,
+			);
+			path = ChaiCronicalsTests;
+			sourceTree = "<group>";
+		};
+		D985B66D24DA903E001C40CD /* ChaiCronicalsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D985B66E24DA903E001C40CD /* ChaiCronicalsUITests.swift */,
+				D985B67024DA903E001C40CD /* Info.plist */,
+			);
+			path = ChaiCronicalsUITests;
+			sourceTree = "<group>";
+		};
+		D985B68224DA914D001C40CD /* View_controller */ = {
+			isa = PBXGroup;
+			children = (
+				D985B65024DA903C001C40CD /* ViewController.swift */,
+				D985B67C24DA90F4001C40CD /* SignupViewController.swift */,
+				D985B67E24DA910E001C40CD /* LogInViewController.swift */,
+				D985B68024DA9134001C40CD /* HomeViewController.swift */,
+			);
+			path = View_controller;
+			sourceTree = "<group>";
+		};
+		D985B68524DA9ED9001C40CD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D9E46D4C24DB50CC0018B176 /* Constants.swift */,
+				D985B68324DA9EB1001C40CD /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D9E46D4E24DCB3B50018B176 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				D9E46D5324DCC7F30018B176 /* ChaiVideo.mp4 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		DB8FBED77832E1E14619B1EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A44356B8641C7FC1BEDCF851 /* Pods_ChaiCronicals.framework */,
+				D571E70C20A30F2A56161862 /* Pods_ChaiCronicals_ChaiCronicalsUITests.framework */,
+				9480D5657792D00D8DD1FE89 /* Pods_ChaiCronicalsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D985B64824DA903C001C40CD /* ChaiCronicals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D985B67324DA903E001C40CD /* Build configuration list for PBXNativeTarget "ChaiCronicals" */;
+			buildPhases = (
+				31882E4FCC8C4B4A2C1007B9 /* [CP] Check Pods Manifest.lock */,
+				D985B64524DA903C001C40CD /* Sources */,
+				D985B64624DA903C001C40CD /* Frameworks */,
+				D985B64724DA903C001C40CD /* Resources */,
+				01BA37E7A7BB52B52789A331 /* [CP] Embed Pods Frameworks */,
+				5565CEAD8C19EBE124BDB44C /* [CP] Copy Pods Resources */,
+				D907D44924E315EE005912E8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChaiCronicals;
+			productName = ChaiCronicals;
+			productReference = D985B64924DA903C001C40CD /* ChaiCronicals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D985B65E24DA903E001C40CD /* ChaiCronicalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D985B67624DA903E001C40CD /* Build configuration list for PBXNativeTarget "ChaiCronicalsTests" */;
+			buildPhases = (
+				41641C65D84F861B54B5133C /* [CP] Check Pods Manifest.lock */,
+				D985B65B24DA903E001C40CD /* Sources */,
+				D985B65C24DA903E001C40CD /* Frameworks */,
+				D985B65D24DA903E001C40CD /* Resources */,
+				5AE4DED8262D56B8533A8FE7 /* [CP] Embed Pods Frameworks */,
+				C17586B94F51A6560A504D04 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D985B66124DA903E001C40CD /* PBXTargetDependency */,
+			);
+			name = ChaiCronicalsTests;
+			productName = ChaiCronicalsTests;
+			productReference = D985B65F24DA903E001C40CD /* ChaiCronicalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D985B66924DA903E001C40CD /* ChaiCronicalsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D985B67924DA903E001C40CD /* Build configuration list for PBXNativeTarget "ChaiCronicalsUITests" */;
+			buildPhases = (
+				3ED29C1AB8627B2D8BA6D861 /* [CP] Check Pods Manifest.lock */,
+				D985B66624DA903E001C40CD /* Sources */,
+				D985B66724DA903E001C40CD /* Frameworks */,
+				D985B66824DA903E001C40CD /* Resources */,
+				B7AEA5FE97CE73D8313F39D3 /* [CP] Embed Pods Frameworks */,
+				E5222B6A151F05F1E00E3FF1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D985B66C24DA903E001C40CD /* PBXTargetDependency */,
+			);
+			name = ChaiCronicalsUITests;
+			productName = ChaiCronicalsUITests;
+			productReference = D985B66A24DA903E001C40CD /* ChaiCronicalsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D985B64124DA903B001C40CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Anuj Pandey";
+				TargetAttributes = {
+					D985B64824DA903C001C40CD = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					D985B65E24DA903E001C40CD = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = D985B64824DA903C001C40CD;
+					};
+					D985B66924DA903E001C40CD = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = D985B64824DA903C001C40CD;
+					};
+				};
+			};
+			buildConfigurationList = D985B64424DA903B001C40CD /* Build configuration list for PBXProject "ChaiCronicals" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D985B64024DA903B001C40CD;
+			productRefGroup = D985B64A24DA903C001C40CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D985B64824DA903C001C40CD /* ChaiCronicals */,
+				D985B65E24DA903E001C40CD /* ChaiCronicalsTests */,
+				D985B66924DA903E001C40CD /* ChaiCronicalsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D985B64724DA903C001C40CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D985B65924DA903E001C40CD /* LaunchScreen.storyboard in Resources */,
+				D9E46D4924DAACB90018B176 /* GoogleService-Info.plist in Resources */,
+				D9E46D5424DCC7F30018B176 /* ChaiVideo.mp4 in Resources */,
+				D985B65624DA903E001C40CD /* Assets.xcassets in Resources */,
+				D985B65424DA903C001C40CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D985B65D24DA903E001C40CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D985B66824DA903E001C40CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01BA37E7A7BB52B52789A331 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChaiCronicals/Pods-ChaiCronicals-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChaiCronicals/Pods-ChaiCronicals-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChaiCronicals/Pods-ChaiCronicals-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31882E4FCC8C4B4A2C1007B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChaiCronicals-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ED29C1AB8627B2D8BA6D861 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChaiCronicals-ChaiCronicalsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41641C65D84F861B54B5133C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChaiCronicalsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5565CEAD8C19EBE124BDB44C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChaiCronicals/Pods-ChaiCronicals-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChaiCronicals/Pods-ChaiCronicals-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChaiCronicals/Pods-ChaiCronicals-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AE4DED8262D56B8533A8FE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChaiCronicalsTests/Pods-ChaiCronicalsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChaiCronicalsTests/Pods-ChaiCronicalsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChaiCronicalsTests/Pods-ChaiCronicalsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7AEA5FE97CE73D8313F39D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChaiCronicals-ChaiCronicalsUITests/Pods-ChaiCronicals-ChaiCronicalsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChaiCronicals-ChaiCronicalsUITests/Pods-ChaiCronicals-ChaiCronicalsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChaiCronicals-ChaiCronicalsUITests/Pods-ChaiCronicals-ChaiCronicalsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C17586B94F51A6560A504D04 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChaiCronicalsTests/Pods-ChaiCronicalsTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChaiCronicalsTests/Pods-ChaiCronicalsTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChaiCronicalsTests/Pods-ChaiCronicalsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5222B6A151F05F1E00E3FF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChaiCronicals-ChaiCronicalsUITests/Pods-ChaiCronicals-ChaiCronicalsUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChaiCronicals-ChaiCronicalsUITests/Pods-ChaiCronicals-ChaiCronicalsUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChaiCronicals-ChaiCronicalsUITests/Pods-ChaiCronicals-ChaiCronicalsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D985B64524DA903C001C40CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D985B65124DA903C001C40CD /* ViewController.swift in Sources */,
+				D985B64D24DA903C001C40CD /* AppDelegate.swift in Sources */,
+				D985B68424DA9EB2001C40CD /* Utilities.swift in Sources */,
+				D985B67D24DA90F4001C40CD /* SignupViewController.swift in Sources */,
+				D985B67F24DA910E001C40CD /* LogInViewController.swift in Sources */,
+				D985B64F24DA903C001C40CD /* SceneDelegate.swift in Sources */,
+				D985B68124DA9134001C40CD /* HomeViewController.swift in Sources */,
+				D9E46D4D24DB50CC0018B176 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D985B65B24DA903E001C40CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D985B66424DA903E001C40CD /* ChaiCronicalsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D985B66624DA903E001C40CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D985B66F24DA903E001C40CD /* ChaiCronicalsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D985B66124DA903E001C40CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D985B64824DA903C001C40CD /* ChaiCronicals */;
+			targetProxy = D985B66024DA903E001C40CD /* PBXContainerItemProxy */;
+		};
+		D985B66C24DA903E001C40CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D985B64824DA903C001C40CD /* ChaiCronicals */;
+			targetProxy = D985B66B24DA903E001C40CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D985B65224DA903C001C40CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D985B65324DA903C001C40CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D985B65724DA903E001C40CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D985B65824DA903E001C40CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D985B67124DA903E001C40CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D985B67224DA903E001C40CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D985B67424DA903E001C40CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8483ECC9D08F87FD3AE1CE4 /* Pods-ChaiCronicals.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DM7SK3CWS5;
+				INFOPLIST_FILE = ChaiCronicals/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "App-build.ChaiCronicals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D985B67524DA903E001C40CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 763266E4D3357FC1245981E1 /* Pods-ChaiCronicals.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DM7SK3CWS5;
+				INFOPLIST_FILE = ChaiCronicals/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "App-build.ChaiCronicals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D985B67724DA903E001C40CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA7BB92F38556830C68ACAF /* Pods-ChaiCronicalsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChaiCronicalsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "App-build.ChaiCronicalsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChaiCronicals.app/ChaiCronicals";
+			};
+			name = Debug;
+		};
+		D985B67824DA903E001C40CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36630851AE38EED7F27DD86E /* Pods-ChaiCronicalsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChaiCronicalsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "App-build.ChaiCronicalsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChaiCronicals.app/ChaiCronicals";
+			};
+			name = Release;
+		};
+		D985B67A24DA903E001C40CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9B979D785BE2C3867D4DD10 /* Pods-ChaiCronicals-ChaiCronicalsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChaiCronicalsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "App-build.ChaiCronicalsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChaiCronicals;
+			};
+			name = Debug;
+		};
+		D985B67B24DA903E001C40CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18805E443F52A779370BE98D /* Pods-ChaiCronicals-ChaiCronicalsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChaiCronicalsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "App-build.ChaiCronicalsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChaiCronicals;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D985B64424DA903B001C40CD /* Build configuration list for PBXProject "ChaiCronicals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D985B67124DA903E001C40CD /* Debug */,
+				D985B67224DA903E001C40CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D985B67324DA903E001C40CD /* Build configuration list for PBXNativeTarget "ChaiCronicals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D985B67424DA903E001C40CD /* Debug */,
+				D985B67524DA903E001C40CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D985B67624DA903E001C40CD /* Build configuration list for PBXNativeTarget "ChaiCronicalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D985B67724DA903E001C40CD /* Debug */,
+				D985B67824DA903E001C40CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D985B67924DA903E001C40CD /* Build configuration list for PBXNativeTarget "ChaiCronicalsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D985B67A24DA903E001C40CD /* Debug */,
+				D985B67B24DA903E001C40CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D985B64124DA903B001C40CD /* Project object */;
+}
